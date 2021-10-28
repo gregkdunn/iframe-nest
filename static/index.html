@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframing</title>
+    <style>
+      .event, .message {
+        margin : 6px 12px 18px;
+      }
+      .event h3 {
+        border-bottom: 3px solid #bdcebe;
+      }
+      .message h3{
+        border-bottom: 3px solid #eca1a6;
+      }
+      h3 {
+        margin: 6px 0;
+      }
+      .origin {
+        float:right;
+      }
+      .values {
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Window</h1>
+
+    <form id="windowForm"> 
+      <label for="name">Name</label>
+      <input name="name" type="text"/>
+      
+      <label for="email">Email</label>
+      <input name="email" type="text"/>
+      
+      <label for="sign">Sign</label>
+      <select name="sign">
+        <option value="capricorn">capricorn</option>
+        <option value="ravenclaw">ravenclaw</option>
+        <option value="10% off">10% off</option>
+      </select>
+      
+      <input type="submit" value="submit"/>      
+    </form>
+    
+    <br/><br/><br/>
+    
+    <iframe src="./iframe.html" style="width:100%; height: 150px;">
+    </iframe>
+    
+
+    <iframe src="http://gregkdunn-test.neocities.org/iframe-content.html" style="width:100%; height: 300px;">
+    </iframe>
+
+    <br/><br/><br/>
+    <h2>Values:</h2>
+    <div id="values">
+
+
+    </div>
+
+    <br/><br/><br/>
+    <script type="text/javascript" src="//js.staging-callrail.com/companies/735218505/6a84ea85e957f18f4175/12/swap.js"></script> 
+    <script type="text/javascript" src="parent.js"></script>
+  </body>
+</html>
