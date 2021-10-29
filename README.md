@@ -2,7 +2,7 @@
 
 ## Description
 
-A basic example showing iFrame communication with iFrames. The submitted form data will be posted to the parent document using the event or message 
+A basic example showing communication with iFrames. The submitted form data will be posted to the parent document using the event or message 
 
 With the iFrame on the same domain, you can attach event listeners directly to elements from the parent document. 
 
